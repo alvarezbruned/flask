@@ -2,10 +2,8 @@ FROM python:3.6-slim
 MAINTAINER Albert Alvarez
 
 RUN mkdir -p /app
-RUN echo "Flask==1.0.2" >> /app/requirements.txt
-RUN echo "requests" >> /app/requirements.txt
-RUN echo "random-word==1.0.4" >> /app/requirements.txt
 WORKDIR /app
+COPY requirements.txt /app/requirements.txt
 RUN pip install -r requirements.txt
 COPY app.py /app
 RUN chmod +x /app/app.py
