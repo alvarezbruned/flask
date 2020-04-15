@@ -1,6 +1,7 @@
 FROM python:3.6-slim
 MAINTAINER Albert Alvarez
 
+RUN pip install --upgrade pip
 RUN mkdir -p /app
 WORKDIR /app
 COPY requirements.txt /app/requirements.txt

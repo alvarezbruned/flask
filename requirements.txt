@@ -3,3 +3,4 @@ requests
 random-word==1.0.4
 pymongo
 Flask-Caching
+pymysql
