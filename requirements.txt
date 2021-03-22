@@ -6,4 +6,4 @@ pymysql
 flask-sitemap
 httpagentparser
 Flask-BasicAuth
-flask-swagger
+flasgger
