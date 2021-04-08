@@ -1,5 +1,5 @@
 Flask==1.0.2
-requests
+#requests
 pymongo
 Flask-Caching
 pymysql
@@ -7,3 +7,7 @@ flask-sitemap
 httpagentparser
 Flask-BasicAuth
 flasgger
+requests==2.21.0
+oauthlib==3.0.1
+pyOpenSSL==19.0.0
+Flask-Login==0.4.1
