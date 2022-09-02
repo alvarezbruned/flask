@@ -3,12 +3,8 @@ pymongo
 Flask-Caching
 pymysql
 flask-sitemap
-httpagentparser
 Flask-BasicAuth
 flasgger
 requests
-oauthlib
-pyOpenSSL
-Flask-Login
-iap-auth
 flask-sqlalchemy
+Flask-Migrate
