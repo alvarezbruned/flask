@@ -17,3 +17,4 @@ itsdangerous==1.1.0
 cryptography
 py-youtube
 python-dateutil
+flask-talisman
