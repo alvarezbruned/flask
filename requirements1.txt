@@ -18,3 +18,4 @@ cryptography
 py-youtube
 python-dateutil
 flask-talisman
+Flask-Breadcrumbs
