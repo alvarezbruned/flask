@@ -19,3 +19,4 @@ py-youtube
 python-dateutil
 flask-talisman
 Flask-Breadcrumbs
+flask_mail
