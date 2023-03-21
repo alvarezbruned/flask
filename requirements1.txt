@@ -20,3 +20,5 @@ python-dateutil
 flask-talisman
 Flask-Breadcrumbs
 flask_mail
+Flask-WTF
+email_validator
